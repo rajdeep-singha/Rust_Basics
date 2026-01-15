@@ -11,10 +11,10 @@ fn main(){
    let x: _ = 12345; // this tells the compiler to infer the type
 
    //constants
-
+  const NUM: u32 = 100_000;
 
    //println!
-   let x=1;
+   // let x: i32 =1;
    println!(" x is {}" , x );
 
    //debug

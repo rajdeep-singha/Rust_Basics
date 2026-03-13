@@ -6,6 +6,7 @@ fn main(){
     scores.insert("red".to_string(), 10);
     scores.insert("blue".to_string(), 50);
     println!("scores{:?}",scores);
+    
     //get value
 
     let score: Option<&u32> = scores.get("red");

@@ -18,5 +18,4 @@ fn main(){
    println!(" x is {}" , x );
 
    //debug
-
 }

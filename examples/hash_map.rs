@@ -10,7 +10,7 @@ fn main(){
     //get value
 
     let score: Option<&u32> = scores.get("red");
-    println!("score for red: {:?}\n", score);
+    println!("Score for red: {:?}", score);
     let score: Option<&u32> = scores.get("green");
     println!("score for green:{:?}",score);
 
@@ -20,4 +20,7 @@ fn main(){
 
     let score: Option<&u32> = scores.get("black");
     println!("score for black: {:?}\n", score);
+    
+    let score: Option<&u32> = scores.get("white");
+    println!("Score for white: {:?}",score);
 }

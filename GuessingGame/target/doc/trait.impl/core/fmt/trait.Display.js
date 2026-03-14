@@ -1,0 +1,9 @@
+(function() {
+    const implementors = Object.fromEntries([["getrandom",[["impl <a class=\"trait\" href=\"https://doc.rust-lang.org/1.94.0/core/fmt/trait.Display.html\" title=\"trait core::fmt::Display\">Display</a> for <a class=\"struct\" href=\"getrandom/struct.Error.html\" title=\"struct getrandom::Error\">Error</a>",0]]],["rand",[["impl <a class=\"trait\" href=\"https://doc.rust-lang.org/1.94.0/core/fmt/trait.Display.html\" title=\"trait core::fmt::Display\">Display</a> for <a class=\"enum\" href=\"rand/distr/enum.BernoulliError.html\" title=\"enum rand::distr::BernoulliError\">BernoulliError</a>",0],["impl <a class=\"trait\" href=\"https://doc.rust-lang.org/1.94.0/core/fmt/trait.Display.html\" title=\"trait core::fmt::Display\">Display</a> for <a class=\"enum\" href=\"rand/distr/uniform/enum.Error.html\" title=\"enum rand::distr::uniform::Error\">Error</a>",0],["impl <a class=\"trait\" href=\"https://doc.rust-lang.org/1.94.0/core/fmt/trait.Display.html\" title=\"trait core::fmt::Display\">Display</a> for <a class=\"enum\" href=\"rand/distr/weighted/enum.Error.html\" title=\"enum rand::distr::weighted::Error\">Error</a>",0],["impl <a class=\"trait\" href=\"https://doc.rust-lang.org/1.94.0/core/fmt/trait.Display.html\" title=\"trait core::fmt::Display\">Display</a> for <a class=\"struct\" href=\"rand/distr/slice/struct.Empty.html\" title=\"struct rand::distr::slice::Empty\">Empty</a>",0]]]]);
+    if (window.register_implementors) {
+        window.register_implementors(implementors);
+    } else {
+        window.pending_implementors = implementors;
+    }
+})()
+//{"start":59,"fragment_lengths":[267,1089]}

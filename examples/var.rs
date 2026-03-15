@@ -6,7 +6,6 @@ fn main(){
    
    let mut x = 1;
    x += 2;
-
    // type placeholder 
    let x: _ = 12345; // this tells the compiler to infer the type
 
@@ -18,4 +17,5 @@ fn main(){
    println!(" x is {}" , x );
 
    //debug
+
 }

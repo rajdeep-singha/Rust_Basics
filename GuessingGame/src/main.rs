@@ -18,7 +18,7 @@ fn main() {
             println!("Invalid input. Please enter a number.");
             continue;
         },
-    } ;//shadowing 
+    } ;//shadowing  : this also change the type of guess from String to u32
     
     println!("You guessed the number {}", guess);
     

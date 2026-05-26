@@ -8,7 +8,7 @@ fn main(){
             break;
         }
     }
-    for i in 0..6 {
+    for i in 0..6 {  
         println!("for loop {i}");
     }
     
